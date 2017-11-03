@@ -1,13 +1,11 @@
 {
-    "name": "a1comms/gae-support-laravel",
+    "name": "pesa/gae-support-laravel",
     "description": "Google App Engine (Standard and Flexible Environment) runtime support for Laravel apps.",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Samuel Melrose",
-            "email": "sam.melrose@a1comms.com"
-        }
-    ],
+    "authors": [{
+        "name": "Clive Makamara",
+        "email": "cmosh@live.com"
+    }],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "~5.1",
@@ -22,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "A1comms\\GaeSupportLaravel\\": "src/A1comms/GaeSupportLaravel/"
+            "Pesa\\GaeSupportLaravel\\": "src/Pesa/GaeSupportLaravel/"
         },
         "files": [
             "src/helpers.php"
